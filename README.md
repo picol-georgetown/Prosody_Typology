@@ -29,9 +29,10 @@ You can download the Common Voice dataset from the [Common Voice website](https:
 
 ### Prepare the Common Voice dataset:
 You need to preprocess the Common Voice dataset to extract the prosodic features. You can use the following script to extract the prosodic features:
-1. MFA (Montreal Forced Aligner) to align the audio files with the text files. Tutorial by Eleanor Chodroff: [link](https://lingmethodshub.github.io/content/tools/mfa/mfa-tutorial/) the MFA tool: [link](https://montreal-forced-aligner.readthedocs.io/en/latest/).
+1. MFA (Montreal Forced Aligner) to align the audio files with the text files: [Tutorial by Eleanor Chodroff](https://lingmethodshub.github.io/content/tools/mfa/mfa-tutorial/), and [the MFA tool](https://montreal-forced-aligner.readthedocs.io/en/latest/).
 2. You can extract the prosodic features f0 using the `extract.py` script, and prominence features using the `extract_prominence.py` script. For other prosodic features, you can change the arguments in the `extract.py` script.
 Or run the bash script f0_extraction.sh in your server to extract the f0 features.
+3. The preprocessed data is also avaiblable in our [OSF repository](https://osf.io/ZMXRT/).
 
 ---
 
